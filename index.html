@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|Home</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+            box-sizing: border-box;
+            }
+          /* Style the body */
+          body {
+            font-family: Serif;
+            margin: 0;
+          }
+          .footer {
+            height: 150px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:#424140;
+            color: white;
+            text-align: center;
+            background-repeat: no-repeat;
+         }
+
+          /* Header/logo Title */
+          .header {
+            padding: 80px;
+            text-align: center;
+            color: white;
+          }
+          
+          /* Increase the font size of the heading */
+          .header h1 {
+            font-size: 45px;
+          }
+
+          .wp-dt{
+            background-position: center;
+            font-family: Serif;
+            width: 200px;
+          }
+          #home_image{
+            height: 400px; 
+            width: 1400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:rgb(242, 244, 245);
+          }
+          .text_inner{
+            text-align: center;
+            position: absolute;
+            top: 40%;
+            left:50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            color: black;
+          }
+          /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+          .navbar {
+            overflow: hidden;
+            background-color:white;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+          }
+          
+          /* Style the navigation bar links */
+          .navbar a {
+            float: left;
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+          }
+          
+          
+          /* Right-aligned link */
+          .navbar a.right {
+            float: right;
+          }
+          
+          /* Change color on hover */
+          .navbar a:hover {
+            background-color: whitesmoke;
+            color: black;
+          }
+          
+          /* Active/current link */
+          .navbar a.active {
+            background-color: #666;
+            color: white;
+          }
+          
+          /* Column container */
+          .row {  
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+          }
+          
+          /* Create two unequal columns that sits next to each other */
+          /* Sidebar/left column */
+          .side {
+            -ms-flex: 30%; /* IE10 */
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+          }
+          
+          /* Main column */
+          .main {   
+            -ms-flex: 70%; /* IE10 */
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+          }
+          #process {
+            background-position: center;
+            background-repeat: no-repeat;
+            width:380px;
+            padding-left:40px;
+          }
+          
+          
+          /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 700px) {
+            .row {   
+              flex-direction: column;
+            }
+          }
+          
+          /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+          @media screen and (max-width: 400px) {
+            .navbar a {
+              float: none;
+              width: 100%;
+            }
+          }
+          </style>
+    </head>
+        
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                <div class="text_inner">
+                <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="#" class="active">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+        </div>
+
+        <div class="row">
+          <div class="side">
+            <ul  style="list-style:none;">
+                 <li style="border:0 none; background: #666; color:white; height:50px; padding-top:18px; text-align:center; font-family: Serif; font-size: 20px;"><strong>On this page:</strong></li>
+                 <li style="border:0 none; background: white;height: 50px;padding-top: 18px; text-align:center; font-family:Serif; font-size:20px; "><a href="#dt-description">About this Toolkit</a></li>
+                 <li style="border:0 none; background: white;height: 50px;padding-top: 18px;text-align:center; font-family:Serif; font-size:20px;"><a href="#dt-cad_software">What is a CAD software</a></li>
+                 <li style="border:0 none; background: white;height: 50px;padding-top: 18px;text-align:center; font-family:Serif; font-size:20px;"><a href="#dt-cad_healtcare">3D CAD Softwares used in Healtcare</a></li>         
+             </ul>
+                <img id="process" src="process.png" alt="process" style="height:250px;">
+                <ul  style="list-style:none;">
+                  <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">Steps required in the creation of 3D printed model.</li>
+                </ul>
+            </div>
+
+        <div class="main">
+            <h2 style="font-family:Serif; font-size:25px;"><a name="dt-description"></a><strong>About this Toolkit</strong></h2>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The Dynamic Toolkit is to put in order the various digital tools that can be used for designing and producing 3D printed models of any kind of medical implants, 
+                to systemize them according to a common format and to create a tool that can help the users to select the suitable tool for the right purpose.</p>
+                <p style="font-family:Serif; font-size:20px;text-align:justify; margin-right:15px;">All digital tools will be described according to a template considering different aspects: general description of the software/tool, specific purpose, functionalities, pros and cons, price (free-software preferred to other tools), availability of the tool to one of the Partner University. 
+                The toolkit will not include user-experience aspects of computer-aided design (CAD) software, e.g., computational power, ease of use, or other. The user will be able to choose, e.g., by ticking selections, from four different criteria and results will be provided in the form of a Table with proposed solutions.</p>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Dynamic Toolkit is organised as an open online tool with searchable and downable items.</p>
+                <p style="font-family:Serif; font-size:20px; text-align:justify;margin-right:15px;">The language of the Dynamic Toolkit is English.</p>
+
+            
+            <h2 style="font-family:Serif; font-size:25px;"><a name="dt-description"><a name="dt-cad_software"></a><strong>What is a CAD software</strong></h2>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">3D CAD, is a three-dimensional computer-aided design tool used to by designers, engineers, and architects to create industrial objects that iclude  complex mechanisms.
+                It helps to create functional, virtual prototypes of three-dimensional designs.
+                A CAD software can be very specific, whether it is for industrial, mechanical, architectural or aeronautical engineering design.</P>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">CAD software tools allow designers to investigate design ideas, modify designs easily, visualize concepts through renderings, simulate how a design performs in the real world and draft documentation. 
+                Moreover, using cad software designers can share designs for feedback, and allow companies to get to market faster.</p>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The benefits of 3D CAD softwares are the following:</p>
+                    <ul>
+                        <li style="font-family:Serif; font-size:20px;">Rapid concept development</li>
+                        <li style="font-family:Serif; font-size:20px;">Specialization</li>
+                        <li style="font-family:Serif; font-size:20px;">Visualization</li>
+                        <li style="font-family:Serif; font-size:20px;">Optimization</li>
+                        <li style="font-family:Serif; font-size:20px;">Rapid manufacturing</li>
+                    </ul>
+            
+                <h2 style="font-family:Serif; font-size:25px; "><a name="dt-description"><a name="dt-cad_healtcare"></a><strong>3D CAD Softwares used in Healtcare</strong></h2>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The medical device manufacturing industry is growing rapidly in order to keep up with the increased demand. Therefore, medical device product designers must create innovative medical products. 
+                Plenty of challenges are to be considered during manufacturing of medical equipment, with the most important among them being patient safety. 
+                Efficiency, effectiveness, and cost containment, are also very important to be considered.</p>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Recent years have been marked by a growing interest in the creation of open science. This applies not only to the free sharing of content and research experience, but also in particular 
+                  to the benefits of using open source systems. Many of the leading commercial software products have an analogue of open source software. </p>
+               
+                
+                <img id="3d_Healthcare" src="3d_printing_in_Healthcare.png" alt="3d_Healthcare" style="height:350px; background-position: center; background-repeat: no-repeat; width:800px; padding-left:150px;">
+              <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">CAD software tools allow designers to investigate design ideas, modify designs easily, visualize concepts through renderings, simulate how a design performs 
+                in the real world, and draft documentation. Moreover, using cad software designers can share designs for feedback, and allow companies to get to market faster. In the biomedical field, 
+                CAD software is used for accurate modeling of complex geometries, customization, and patient-specific solutions, iterative design processes, simulation and analysis, collaboration, and communication, 
+                as well as facilitating manufacturing and production. More specifically CAD is necessary for the following reasons:</p>
+                <ul>
+                  <li style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Precise Design: Biomedical technology often involves intricate and complex designs, such as medical devices, implants, and prosthetics. 
+                    CAD software allows engineers and designers to create precise and detailed 3D models of these components. It enables accurate representation 
+                    of complex geometries, dimensions, and specifications, ensuring the design meets the required standards and functional requirements.</li>
+                  <li style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Visualization and Simulation: CAD software provides visualization tools that allow designers to see the virtual representation of their designs in 3D. 
+                    This visual feedback helps in assessing the aesthetics, ergonomics, and functionality of biomedical devices. Additionally, CAD software often includes simulation capabilities, 
+                    allowing engineers to test the performance and behavior of the devices under different conditions. 
+                    This simulation helps identify potential design issues and optimize the performance before physical prototyping.</li>
+                  <li style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Customization and Personalization: Biomedical technology often requires customized and patient-specific solutions. CAD software enables the creation of personalized 
+                    designs based on patient data, such as medical imaging scans. With CAD, engineers can precisely model and modify the design to fit the unique anatomy and needs of individual patients. 
+                    This customization enhances the effectiveness and comfort of biomedical devices, leading to improved patient outcomes.</li>
+                  <li style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Iterative Design Process: CAD software supports an iterative design process, where designers can make changes and refinements to their designs based on feedback and testing. 
+                    The software allows for easy modification of design parameters, enabling rapid prototyping and evaluation of design iterations. This iterative approach leads to the development of 
+                    optimized and efficient biomedical devices.</li>
+                  <li style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Collaboration and Documentation: CAD software facilitates collaboration among multidisciplinary teams involved in biomedical technology development. It allows for the sharing 
+                    and exchange of design files, enabling effective communication and feedback from clinicians, researchers, and manufacturers. Additionally, CAD software enables the creation of comprehensive 
+                    design documentation, including detailed specifications, measurements, and material information. This documentation is essential for regulatory compliance, manufacturing, and quality control.</li>
+                  <li style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Integration with Manufacturing Technologies: CAD software plays a crucial role in the integration of design with manufacturing technologies in biomedical engineering. The CAD models generated 
+                    using the software can be directly used in various manufacturing processes, including additive manufacturing (3D printing), CNC machining, and mold fabrication. This integration ensures accuracy 
+                    and consistency between the designed model and the manufactured product.</li>
+                </ul>
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">In summary, CAD is essential in biomedical technology for accurate design, visualization, and simulation, as well as for customization, iterative design processes, collaboration, documentation, 
+                  and integration with manufacturing technologies. It boosts efficiency, accuracy, and innovation in developing biomedical devices, resulting in better healthcare outcomes.Some of the most used 3D CAD
+                   softwatres in the field of healthcare are MeshLab, SolidWorks, Blender, etc.</p>
+              </div>
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+
+            
+        </body>
+</html>            
+    

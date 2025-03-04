@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|BLENDER</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family: serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family: serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family: serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+             
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="SolidWorks.html">SolidWorks</a>
+            <a href="Fusion360.html">Fusion360</a>
+            <a href="MeshLab.html">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="Inventor Professional.html">Inventor Professional</a>
+            <a href="PTC Creo.html">PTC Creo</a>
+            <a href="Meshmixer.html">Meshmixer</a>
+            <a href="#" class="active">BLENDER</a>
+            <a href="Maya.html">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+        </div>
+        
+        <div class="row">
+          <div class="side">
+                <ul  style="list-style:none;">
+                  <li style="border:0 none; background: #666; color:white; height:50px; padding-top:18px; text-align:center; font-family: Serif; font-size: 20px;"><strong>On this page:</strong></li>
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-description">Description</a></li>
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-applications">Applications in Healtcare</a></li>       
+                </ul>
+
+                <div class="overview" style="list-style:none;">
+                    <table class="overview_blender" style="width:345px; font-family: Serif; font-size: 20px;">
+                        <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                            <tr>
+                                <th colspan="2">Overview</th>
+        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><div class="general_overview_blender" style="background:white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Developer</a></div></th>
+                                <td><div class="general_overview_blender" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>NeoGeo</a></div></td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_meshlab" style="background: white; height: 100px; padding-top: 40px; text-align:center;width:100px;"><a>Platforms</a></div></th>
+                                <td>
+                                    <div class="general_overview_nx" style="background:white; height: 100px; padding-top: 1px; text-align:center;">
+                                        <ul style="list-style:none;">
+                                            <li>Windows</li>
+                                            <li>Linux</li>
+                                            <li>MacOS</li>
+                                        </ul> 
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_blender" style="background: white; height: 230px; padding-top: 100px; text-align:center;width:100px;"><a>Pros</a></div></th>
+                                <td>
+                                    <div class="general_overview_blender" style="background:white; height: 230px; padding-top: 1px; padding-right:20px; text-align:center;">
+                                        <ul style="list-style:none;">
+                                            <li>Advanced simulation effects </li>
+                                            <li>Real-time previews</li>
+                                            <li>Supports Entire Pipeline</li>
+                                            <li>Various Rendering Options</li>
+                                            <li>Regularly Updated</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_solidworks"style="background:white; height: 70px; padding-top: 25px; text-align:center;width:100px;"><a>Price</a></div></th>
+                                <td><div class="general_overview_solidworks" style="background:white; height: 70px; padding-top: 25px; text-align:center;"><a>Free Software</a></div></td>
+                            </tr>  
+                        </tbody>
+                    </table>      
+                </div>
+                <img id="process" src="blender.jpg" alt="process" style="height:250px; padding-top:5px;">
+                <ul  style="list-style:none;">
+                  <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">3D digitized tooth model.</li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"></a></strong>Description</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The open source Blender software has a GNU General Public License (GPL, or “free software”). The GNU General Public License guarantees freedom of action. 
+                        The GPL strictly aims to protect these freedoms. This license gives people a number of freedoms: Free use of Blender for all purposes; Free distribution of Blender; Free change and modification of Blender; Allows distribution of modified versions of Blender. 
+                        The Blender Foundation (which freely distributes the software and takes care of the promotion of the new released versions of the Blender) and its projects at blender.org are committed to keeping Blender free of charge. 
+                        Blender software is multifunctional software based on Python programming language. According to the information provided on the official website of the software, it includes the following features: rendering, modeling, sculpting, animation & rigging, story artist, VFX, simulation, pipeline, video editing, scripting and customize interface.  
+                        Through the software it is possible to create geometric meshes, curves and surface directly in the three-dimensional digital space. 
+                        The polygonal-mesh geometry consists of faces, vertices and edges. 
+                        Due to the high efficiency of the obtained three-dimensional polygonal mesh of the developed 3D models, Blender is used for both conventional and parametric modeling, through the main functionalities of the software and through additional specialized add-on applications. 
+                        This became the main basis for the application of software for the development of 3D bioengineering and ergonomic models.</p>
+        
+                <h2 style="font-family:Serif; font-size:25px;"><a name= "dt-applications"></a></strong>Application in Healtcare</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For the needs of healthcare, high-quality add-ons in the following areas are available for use completely free of charge:</p>
+                        <ul style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                            <li>Dentistry. The leading specialized free add-on is ODC (Open Dental CAD). ODC features include: basic world alignment, link/unlink, join/separate; mesh: clean, fill hole, decimate, smooth, curve trim, square cut; model: solid and hollow base making, color, undercut: surveying & blockout; splint shell making. Also available are:  Blender addon for Digital Dentistry with real 4D motion (BDENTAL-4D), & BDENTAL_ALIGN addo-on for dental meshs alignement and other. </li>
+                            <li>Orthognathic surgery. The leading specialized addon is OrtogOnBlender. Basicly the addon is for orthognathic surgery, but also is useful for: Photogrammetry with OpenMVG + OpenMVS; Complex boolean with Cork; Direct importation of CT-Scan (DICOM) with DicomToMesh; Segmentation tools </li>
+                            <li>Orthopedics. The development of orthopedic models has been significantly improved with the free add-on for Blender WASP MED. </li>
+                            <li>Protectors (shields & masks). WASP completely freely shares their specialized My face mask add-on for 3D development of protective masks, as well as ready-made OSS samples. </li>
+                        </ul>
+            
+                <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information visit website: <a href="https://www.blender.org/download/" target="_blank"> BLENDER </a> </p>
+        
+            </div>
+        
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+            
+    </body>
+</html>

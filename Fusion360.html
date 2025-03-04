@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|Fusion360</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family: Serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family: serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family: Arial, Helvetica, sans-serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+             
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header"></div>
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="SolidWorks.html">SolidWorks</a>
+            <a href="#" class="active">Fusion360</a>
+            <a href="MeshLab.html">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="Inventor Professional.html">Inventor Profesional</a>
+            <a href="PTC Creo.html">PTC Creo</a>
+            <a href="Meshmixer.html">Meshmixer</a>
+            <a href="BLENDER.html">BLENDER</a>
+            <a href="Maya.html">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+        </div>
+        
+        <div class="row">
+          <div class="side">
+            <ul  style="list-style:none;">
+              <li style="border:0 none; background: #666; color:white; height:50px; padding-top:18px; text-align:center; font-family: Serif; font-size: 20px;"><strong>On this page:</strong></li>
+              <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-description">Description</a></li>
+              <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-applications">Applications in Healtcare</a></li>
+              <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-features">Features</a></li>         
+            </ul>
+
+            <div class="overview" style="list-style:none;">
+              <table class="overview_fusion360" style="width:345px; font-family: Serif; font-size: 20px;">
+                  <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                      <tr>
+                          <th colspan="2">Overview</th>
+     
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th><div class="general_overview_fusion360" style="background:white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Developer</a></div></th>
+                          <td><div class="general_overview_fusion360" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Autodesk</a></div></td>
+                      </tr>
+                      <tr>
+                          <th><div class="general_overview_fusion360" style="background:white; height: 80px; padding-top: 25px; text-align:center; width:100px;"><a>Platforms</a></div></th>
+                          <td>
+                             <div class="general_overview_fusion360" style="background:white; height: 80px; padding-top: 1px; text-align:center;">
+                                 <ul style="list-style:none;">
+                                     <li>Windows</li>
+                                     <li>macOS</li>
+                                 </ul>
+                      </tr>
+                      <tr>
+                          <th><div class="general_overview_fusion360" style="background: white; height: 420px; padding-top: 175px; text-align:center;width:100px;"><a>Pros</a></div></th>
+                          <td>
+                              <div class="general_overview_fusion360" style="background:white; height: 420px; padding-top:1px; padding-right:15px; text-align:center;">
+                                  <ul style="list-style:none;">
+                                     <li>Create history-based featuresthat update with design changes</li>
+                                     <li>Single product data management software</li>
+                                     <li>Real-time collaboration with other designers</li>
+                                     <li>Ability to set up manufacturing and material constraints</li>
+                                     <li>Use the live design reviews to view edits made to the design live within Fusion 360</li>
+                                  </ul>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th><div class="general_overview_fusion360" style="background: white; height: 150px; padding-top: 60px; text-align:center;width:100px;"><a>Price</a></div></th>
+                          <td>
+                             <div class="general_overview_fusion360" style="background: white; height: 150px; padding-top: 1px; text-align:center;">
+                                 <ul style="list-style:none;">
+                                     <li>Free trial</li>
+                                     <li>Monthly subscription</li>
+                                     <li>Annually subscription</li>
+                                     <li>Free acess for students and educators</li>
+                                  </ul>
+                             </div>
+                         </td>
+                      </tr>  
+                  </tbody>
+              </table>      
+            </div>
+
+            <img id="process" src="fusion360.jpg" alt="process" style="height:250px; padding-top:5px;">
+            <ul  style="list-style:none;">
+              <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">Knee implant model.</li>
+            </ul>
+          </div>
+   
+          <div class="main">
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"><a name="dt-description"></a><strong>Description</strong></h2>
+              <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Fusion 360 is a 3D CAD program for product design and manufacturing. 
+                One of the benefits of Fusion 360 software is that it is cloud-based, which means that the development process is unified between different designers and engineers. 
+                Fusion 360 is also a platform for collaboration between different parties. 
+                It is possible to connect different teams and external stakeholders on the same project, communicate in real time and centralize project activity. 
+                Fusion 360 enables mechanical and technical 3D models to be created.</p>
+              <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Fusion 360 combines fast and easy organic modeling with precise solid modeling, to help the user create manufacturable designs. 
+                Fusion 360 offers sketching, parametric modeling, direct modeling, freeform modeling, surface modeling and mesh modeling. 
+                Therefore, it covers all the needs designers may have when developing a product. 
+                Fusion 360 offers generative design tools, to explore multiple manufacturing outcomes that meet the design specifications that the user will have defined. 
+                It will be able to propose designs to reduce weight, improve performance and consolidate parts. 
+                Furthermore, simulation tool tells if the models will survive real-life applications, and can therefore reduce the price of prototyping. </p>
+              <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Fusion 360 uses a top-down design approach, in which the user breaks down a system to gain insight into its compositional sub-systems. 
+                In a top-down approach, the user formulates an overview of the assembly, then refines each subassembly and part in greater detail until the entire specification is reduced to base elements. 
+                In top-down assembly design, the user defines the features of a part in relation to elements within an assembly, such as a layout sketch or the geometry of another part. 
+                The design intent (sizes of features, placement of components, proximity to other parts, etc.) comes from the top (the assembly) and moves down (into the parts), hence the phrase “top-down”. </p>
+        
+        
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"><a name = "dt-applications"></a></strong>Applications in Healtcare</h2>
+              <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Fusion 360 is one of the best tools to help Product Engineers, providing them with simple solutions to complex problems, including those in the healthcare field. 
+                In an effort to improve realism in clinical simulation and training, many healthcare organizations contract with outside companies to design and produce needed equipment and supplies. 
+                Having tools such as Fusion 360 has enabled users with little to no background in CAD to produce high quality, highly realistic training models for use in a simulation training environment. 
+                Implant devices such as orthopedic implants, craniofacial implants and exoskeletons are some of the cases that Fusion 360 is used in health care. </p>
+            
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"><a name = "dt-features"></a></strong>Features</h2>
+              <ul style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                <li>3D design and modeling (Sketching, Direct, Surface, Parametric, Mesh, Freeform Modeling, Rending, Assemblies) </li>
+                <li>Data Management (Cloud Storage, Team Participant)</li>
+                <li>Additive Manufacturing (Fused Filament Fabrication, Metal Additive Manufacturing)</li>
+                <li>Generative Design (Manufacturing Methods & Constraints, Machine learning & AI, Native, Editable Results, Cloud Solve, Costing)</li>
+                <li>Collaboration (Global Share, Public/Private Design Sharing)</li>
+                <li>Simulation (Cloud Simulation, Study Breadth, Simplify, Compare Results, Static Stress, Modal Frequency, Thermal & Thermal Stress, Buckling, Non-linear Stress. Event Simulation, Shape Optimization) </li>
+                <li>Documentation (2D Manufacturing Drawings, Rendering, Animation) </li>
+              </ul>
+            
+              <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information visit website:  <a href="https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription" target="_blank"> Fusion360 </a> </p>
+      
+          </div>   
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+    </body>
+</html>

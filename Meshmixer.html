@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|Meshmixer</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family: serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family: serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family: serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+             
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="SolidWorks.html">SolidWorks</a>
+            <a href="Fusion360.html">Fusion360</a>
+            <a href="MeshLab.html">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="Inventor Professional.html">Inventor Profesional</a>
+            <a href="PTC Creo.html">PTC Creo</a>
+            <a href="#" class="active">Meshmixer</a>
+            <a href="BLENDER.html">BLENDER</a>
+            <a href="Maya.html">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+        </div>
+        
+        <div class="row">
+          <div class="side">
+            <ul  style="list-style:none;">
+                <li style="border:0 none; background: #666; color:white; height:50px; padding-top:18px; text-align:center; font-family:serif; font-size: 20px;"><strong>On this page:</strong></li>
+                <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family:serif; font-size: 20px;"><a href="#dt-features">Features</a></li>
+                <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family:serif;font-size: 20px;"><a href="#dt-applications">Applications in Healtcare</a></li>  
+            </ul>
+            
+            <div class="overview" style="list-style:none;">
+                <table class="overview_meshmixer" style="width:345px; font-family: Serif; font-size: 20px;">
+                    <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                        <tr>
+                            <th colspan="2">Overview</th>
+            
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <th><div class="general_overview_meshmixer" style="background:white; height: 50px; padding-top: 15px; text-align:center;width:100px;"><a>Developer</a></div></th>
+                                <td><div class="general_overview_meshmixer" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Autodesk</a></div></td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_meshmixer" style="background: white; height: 80px; padding-top: 25px; text-align:center;width:100px;"><a>Platforms</a></div></th>
+                                <td>
+                                    <div class="general_overview_meshmixer" style="background:white; height: 80px; padding-top: 1px; text-align:center;">
+                                        <ul style="list-style:none;">
+                                            <li>Windows</li>
+                                            <li>macOS</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_meshmixer" style="background: white; height: 480px; padding-top: 240px; text-align:center;width:100px;"><a>Pros</a></div></th>
+                                <td>
+                                    <div class="general_overview_meshmixer" style="background:white; height: 480px; padding-top: 1px;  padding-right:15px; text-align:center;">
+                                        <ul style="list-style:none;">
+                                            <li>Modify models and optimize them for 3D printing</li>
+                                            <li>Analyse different properties of the models (e.g. thickness, solidity, stability) related to 3D printing</li>
+                                            <li>Print your creation directly on a connected desktop 3D printer</li>
+                                            <li>Texturise models using different grid and pattern options</li>
+                                            <li>Customize models as clay in real-time using different tools</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_meshmixer"style="background:white; height: 70px; padding-top: 25px; text-align:center;width:100px;"><a>Price</a></div></th>
+                                <td><div class="general_overview_meshmixer" style="background:white; height: 70px; padding-top: 25px; text-align:center;"><a>Free software</a></div></td>
+                            </tr>  
+                        </tbody>
+                    </table>      
+                </div>
+                <img id="process" src="meshmixer.jpg" alt="process" style="height:250px; padding-top:5px;">
+                <ul  style="list-style:none;">
+                  <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">3D CAD model of tooth.</li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"></a></strong>Description</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Autodesk Meshmixer is free software that has established itself in 3D digital space as a key tool in the final stage of 3D geometry. 
+                        Although it is completely free and available for download, the software is not open source. 
+                        However, it is fully completed and practically does not need significant improvements. 
+                        This is evidenced by the last official version of Autodex from (April, 2018). 
+                        Also in the official main page of Autodesk it is announced (September 2021) that the Meshmixer software will not be further developed and in practice the final version remains 3.5.  </p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The Autodesk Meshmixer software has a seamless correlation with Blender software. 
+                        This allows the digitalization-reality cycle to be a continuous process in the context of the transition from reality to virtuality. 
+                        In this way, bioengineering and ergonomic designers have the opportunity to digitize a three-dimensional geometry if they need to use real-world examples. 
+                        Conventional methods of working with 3D software are used, as well as additive technologies (2D and 3D scanners, photogrammetric capturing and measurements). 
+                        In the same way, if necessary for the real materialization of the developed model/s, it is necessary to create a quality three-dimensional geometry of the digital model/s. 
+                        In order to print 3D or reproduce through CNC machines, it is necessary for the 3D digital geometry to have solid walls; no shape breaches; to specify the different volumes compared to the additive machines.</p>
+                    <P style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The main technical advantages of Autodesk Meshmixer software are the work with advanced sculpting tools and "sewing of the mesh" by automated generation of solid walls along the entire 3D volume of the model. 
+                        This does not exhaust the functionality of the software, which allows precise definition of the parameters. 
+                        The software is extremely effective when it is necessary to "clean" the generated mesh due to photogrammetric digitization.</P>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Autodesk Meshmixer supports the following file formats: *.obj, *.ply, *.stl, *.amf, *.3mf, *.off, *.mix.</p>
+   
+                <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-features"></a></strong>Features</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Autodesk Meshmixer has the following main features:</p>
+                        <ul style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                            <li>Drag-and-Drop Mesh Mixing</li>
+                            <li>3D Sculpting and Surface Stamping</li>
+                            <li>Robust Convert-to-Solid for 3D printing</li>
+                            <li>3D Patterns & Lattices</li>
+                            <li>Hollowing (with escape holes)</li>
+                            <li>Branching Support Structures for 3D printing</li> 
+                            <li>Automatic Print Bed Orientation Optimization, Layout & Packing</li>
+                            <li>Advanced selection tools including brushing, surface-lasso, and constraints</li>
+                            <li>Remeshing and Mesh Simplification/Reducing</li>
+                            <li>Mesh Smoothing and Free-Form Deformations</li>
+                            <li>Hole Filling, Bridging, Boundary Zippering, and Auto-Repair</li>
+                            <li>Plane Cuts, Mirroring, and Booleans</li>
+                            <li>Extrusions, Offset Surfaces, and Project-to-Target-Surface</li>
+                            <li>Interior Tubes & Channels</li>
+                            <li>Precise 3D Positioning with Pivots</li>
+                            <li>Automatic Alignment of Surfaces</li>
+                            <li>3D Measurements</li>
+                            <li>Stability & Thickness Analysis</li>
+                        </ul>
+
+                <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-applications"></a></strong>Applications in Healtcare</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Based on fast and high-quality work with complex 3D geometric shapes, the software is preferred for developing bioengineering and ergonomic models for healthcare needs. 
+                        For example a leg prosthesis, containing: scanning the healthy problem area, digitization and processing in a computer environment using Autodesk Meshmixer software, generating a complete 3D geometry of the prosthesis and real prototyping (with 3D printing), measurement and finalization with a successful result.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">All kinds of models and prototypes can be developed for the needs of healthcare. 
+                        This is fully ensured by the stability of the software, guaranteeing the quality of development.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information visit website: <a href="https://www.meshmixer.com/" target="_blank"> Meshmixer </a> </p>  
+            </div>
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+    </body>
+</html>

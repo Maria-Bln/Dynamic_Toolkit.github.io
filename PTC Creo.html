@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|PTC Creo</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family: serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family: serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family: serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+             
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="SolidWorks.html">SolidWorks</a>
+            <a href="Fusion360.html">Fusion360</a>
+            <a href="MeshLab.html">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="Inventor Professional.html">Inventor Profesional</a>
+            <a href="#" class="active">PTC Creo</a>
+            <a href="Meshmixer.html">Meshmixer</a>
+            <a href="BLENDER.html">BLENDER</a>
+            <a href="Maya.html">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+        </div>
+        
+        <div class="row">
+          <div class="side">
+            <ul  style="list-style:none;">
+                <li style="border:0 none; background: #666; color:white; height: 50px; padding-top: 15px;text-align:center; font-family: Serif; font-size: 20px;"><strong>On this page:</strong></li>
+                <li style="border:0 none; background: white;height: 50px;padding-top: 15px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-description">Description</a></li>
+                <li style="border:0 none; background: white;height: 50px;padding-top: 15px;text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-dt-features">Features</a></li>   
+                <li style="border:0 none; background: white;height: 50px;padding-top: 15px;text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-applications">Applications in Haeltcare</a></li> 
+           </ul>
+           <div class="overview" style="list-style:none;">
+            <table class="overview_creo" style="width:345px; font-family: Serif; font-size: 20px;">
+                <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                    <tr>
+                        <th colspan="2">Overview</th>
+        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><div class="general_overview_creo" style="background:white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Developer</a></div></th>
+                        <td><div class="general_overview_creo" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>PTC</a></div></td>
+                    </tr>
+                    <tr>
+                        <th><div class="general_overview_creo" style="background: white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Platforms</a></div></th>
+                        <td><div class="general_overview_creo" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Windows</a></div></td>
+                    </tr>
+                    <tr>
+                        <th><div class="general_overview_creo" style="background: white; height: 340px; padding-top: 160px; text-align:center; width:100px;"><a>Pros</a></div></th>
+                        <td>
+                            <div class="general_overview_creo" style="background:white; height: 340px; padding-top: 1px; padding-right:15px; text-align:center;">
+                                <ul style="list-style:none;">
+                                    <li>Technical illustrations</li>
+                                    <li>Generative design extension for high-quality, low-cost product</li>
+                                    <li>Finite Element Analysis and simulation</li>
+                                    <li>Schematic design and functionality</li>
+                                    <li>Offers topology optimization technologies</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><div class="general_overview_creo"style="background:white; height: 100px; padding-top: 35px; text-align:center; width:100px;"><a>Price</a></div></th>
+                        <td><div class="general_overview_creo" style="background:white; height: 100px; padding-top: 15px; text-align:center;"><a>The subscription cost of the software is available on a request basis</a></div></td>
+                    </tr>  
+                </tbody>
+            </table>      
+        </div>
+        <img id="process" src="creo.jpg" alt="process" style="height:250px; padding-top:5px;">
+        <ul  style="list-style:none;">
+          <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">3D model of artificial heart.</li>
+        </ul>
+        </div>
+        <div class="main">
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"></a></strong>Description</h2>
+        <p>The PTC Creo Parametric is a robust modelling tool that focuses on providing modularity and instant feedback for design changes. 
+            The Creo family of design programs, combine parametric and direct modeling techniques. 
+            Its surfacing capabilities allow users to turn 2D sketches into full 3D models by either parametrically building or organically shaping complex surfaces. 
+            It also supports 2D drafting in addition to its 3D modelling capabilities, meaning that a designer can easily switch between the 3D model and its corresponding 2D draft, with either view reflecting changes made on the other. </p>
+        
+
+        <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-features"></a></strong>Features</h2>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The complex Creo software suite from PTC focuses on interconnecting the modelling and prototyping phases of product development. 
+            It involves 10 applications as follows: Creo Parametric, Creo Direct, Creo Simulate, Creo Illustrate, Creo Schematics, Creo View MCAD, Creo View ECAD, Creo Sketch, Creo Layout and Creo Options Modeler. 
+            Included are tools for concept and industrial design, simulation and analysis, and general production readiness along with breakthrough capabilities in additive manufacturing, model-based definition, generative design, augmented reality, and smart connected design. 
+            It links these often-separated processes by providing fully featured tools as add-ons for its flagship software. 
+            Due to its parametric nature, the CAD/CAM system is especially popular in high tech industries like aviation and aerospace. 
+            It is widely spread in the manufacturing sector but also in medicine as well preparing various custom devices, prothesis or implants.</p>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The simulation module of the software is a complete structural, thermal and vibration analysis solution with a comprehensive set of finite elements analysis (FEA) capabilities that allow to analyze and validate the performance of 3D virtual prototypes before the first part is made. 
+            While Creo Simulate is used to model the structural integrity of a product under various conditions, Creo’s Mechanism capability is meant for testing the actual mechanics of a product during operation. 
+            This makes Mechanism the go-to software for testing movements of a design, adjusting clearances, and fully visualizing the effect of macroscopic displacements on the design.</p>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Advances in Additive and Subtractive Manufacturing: Creo 9 delivers improved control over stochastic and formula-based lattices and user-defined support structures for advanced additive manufacturing use cases. 
+            Continued improvements to subtractive manufacturing focus on 5-axis finishing toolpaths, turning, mould design, and adaptive feed rates for milling.</p>
+        
+        
+        <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-applications"></a></strong>Applications in Healtcare</h2>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The software is widely used in healthcare application over the world. It supports e.g., augmented reality as the tool that brings medical students on-demand “just in time” information and usher in a new way of learning. 
+            A student can safely operate on a virtual human with digitized anatomy information presented in context and simulate actions withing the environment. </p>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Ergonomic Design and Vision: Expanded ergonomic tools help designers recognise the uniqueness of users while helping ensure products comply with health safety, and workplace standards. 
+            Using the new Vision Field Analysis capability, engineers can analyse users’ line of sight and field of view when driving or using equipment. </p>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The researchers at the University of Tokyo began prototyping and testing a series of innovative mechanical models based on a hydrodynamic levitating impeller pump using PTC Creo as their design software. 
+            Lubricated by the patient’s blood, the design ensures moving parts never touch. The result is a total artificial heart that operates with remarkable efficacy and durability.</p>
+   
+            
+
+    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information visit website: <a href="https://www.ptc.com/en/products/creo" target="_blank"> PTC Creo </a> </p>
+    
+</div>
+</div>
+<div class="footer">
+  <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+    <tr>
+      <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+        Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+        Neither the European Union nor the granting authority can be held responsible for them.</th>
+        <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+    </tr>
+  </table>
+</div>
+    </body>
+</html>

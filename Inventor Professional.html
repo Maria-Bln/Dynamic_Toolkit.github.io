@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|Inventor Professional</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family:serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family: serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family: serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+             
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="SolidWorks.html">SolidWorks</a>
+            <a href="Fusion360.html">Fusion360</a>
+            <a href="MeshLab.html">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="#" class="active">Inventor Profesional</a>
+            <a href="PTC Creo.html">PTC Creo</a>
+            <a href="Meshmixer.html">Meshmixer</a>
+            <a href="BLENDER.html">BLENDER</a>
+            <a href="Maya.html">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+        </div>
+        
+        <div class="row">
+          <div class="side">
+            <ul  style="list-style:none;">
+                <li style="border:0 none; background: #666; color:white; height: 50px; padding-top: 15px; text-align:center; font-family: Serif; font-size: 20px;"><strong>On this page:</strong></li>                 
+                <li style="border:0 none; background: white;height: 50px;padding-top: 15px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-description">Description</a></li>
+                <li style="border:0 none; background: white;height: 50px;padding-top: 15px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-features">Features</a></li>
+                <li style="border:0 none; background: white;height: 50px;padding-top: 15px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-advantages">Advantages of Inventor in Healthcare</a></li>         
+            </ul>
+            <div class="overview" style="list-style:none;">
+                <table class="overview_inventor" style="width:345px; font-family: Serif; font-size: 20px;">
+                    <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                        <tr>
+                            <th colspan="2">Overview</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th><div class="general_overview_inventor" style="background:white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Developer</a></div></th>
+                            <td><div class="general_overview_inentor" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Dassault Systèmes</a></div></td>
+                        </tr>
+                        <tr>
+                            <th><div class="general_overview_inventor" style="background: white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Platforms</a></div></th>
+                            <td><div class="general_overview_inventor" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Windows</a></div></td>
+                        </tr>
+                        <tr>
+                            <th><div class="general_overview_inventor" style="background: white; height: 455px; padding-top: 200px; text-align:center;width:100px;"><a>Pros</a></div></th>
+                            <td>
+                                <div class="general_overview_inventor" style="background:white; height: 455px; padding-top: 1px; padding-right:20px; text-align:center;">
+                                    <ul style="list-style:none;">
+                                        <li>Use powerful 3D modeling and simulation capabilities to design and optimize performance</li>
+                                        <li>Quickly create customizable configurations of your designs and automate common tasks</li>
+                                        <li>Connect your designs with incoming customer data and share ideas in a secure cloud-based service</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><div class="general_overview_fusion360"style="border:0 none;background:white; height: 185px; padding-top: 80px; text-align:center;width:100px;"><a>Price</a></div></th>
+                            <td>
+                               <div class="general_overview_fusion360" style="border:0 none;background:white; height: 185px; padding-top: 1px; padding-right:15px; text-align:center;">
+                                   <ul style="list-style:none;">
+                                       <li>Free trial</li>
+                                       <li>Monthly subscription</li>
+                                       <li>Annually subscription</li>
+                                       <li>Free acess for students and educators</li>
+                                    </ul>
+                               </div>
+                           </td>
+                        </tr>  
+                    </tbody>
+                </table>      
+            </div>
+            <img id="process" src="inventor3.jpg" alt="process" style="height:250px; padding-top:5px;">
+            <ul  style="list-style:none;">
+              <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">Knee implant model.</li>
+            </ul>
+          </div>
+          
+          <div class="main">
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"></a></strong>Description</h2>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Inventor Professional is 3D CAD software from Autodesk. 
+            This software offers diverse tools that enable the creation of 3D mechanical designs. 
+            In addition, the software can build and analyze complete mechanical systems. 
+            It works efficiently with a powerful blend of parametric, direct, freeform, and rules-based design capabilities. 
+            With Inventor Professional DWG™-designs for manufacturing and assemblage be developed. 
+            The tools for sheet metal, frame design, tube and pipe, cable & harness, presentations, rendering, simulation, machine design and more are integrated to the system.</p>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Inventor includes an intuitive environment for creating sketches, models, and reports. 
+            The program automates the creation of intelligent components, plastic parts, steel beams, and cables. 
+            It uses the feature-based parametric modeling technique that control the model geometry using design variables. 
+            The geometric definitions of the design, such as dimensions, can be varied at any time during the design process, as well as features can be modified and/or changed at any time. </p>
+        
+        <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-features"></a></strong>Features</h2>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Autodesk Inventor provides full associative functionality in all design modules, including assemblies that means when a part model is changed, it automatically reflets the changes in all assemblies that use the part. 
+            Direct Adaptive Assembly approach defines part relationships directly (without depending on the associated parameters or constraints) and with no order dependency. </p>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The simulation tools (finite element analysis and dynamic simulation) take a product to the next level. 
+            These tools give the opportunity to check the form and functioning of the design without creating physical prototypes. 
+            The software includes appropriate tools to design sheet metal, electrical systems, tubes, and pipes. 
+            The system maintains an accurate overview of design records thanks to its documentation tool. 
+            Furthermore, the software contains a tool which enables to design parametrically. </p>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Inventor CAM (which used to be called InventorHSM and shouldn’t be confused with the SolidCAM developed product of the same name) for CNC programming from 2.5 axes right up to 5 axis simultaneous machine tools. </p>
+    
+        <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-advantages"></a></strong> Advantages of Inventor in Healthcare</h2>
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The great advantage of Inventor software is the possibility of its application in an enterprise system, where the design, technology and purchasing departments are interconnected. 
+            However, the tools of software can be successfully used also for modeling and production of various medical devices and for a wide range of healthcare application. 
+            For example, CEIT (Central European Institute of Technology) emerging from the Technical University of Kosice in Slovakia achieved ground breaking results in the world of custom implants with the help of Autodesk Within Medical software. 
+            The software enables to create lattice structures which allow for a more lightweight implant and provide improved osseointegration, meaning not only that they ‘take’ better but that they last a lot longer than other implants. </p> 
+
+        <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information visit website: <a href="https://www.autodesk.com/products/inventor/overview?term=1-YEAR&tab=subscription" target="_blank"> Inventor Professional </a> </p>
+        
+        </div>
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+    </body>
+</html>

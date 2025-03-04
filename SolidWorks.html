@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|SolidWorks</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family: Serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family: serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family: serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+             
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="#" class="active">SolidWorks</a>
+            <a href="Fusion360.html">Fusion360</a>
+            <a href="MeshLab.html">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="Inventor Professional.html">Inventor Profesional</a>
+            <a href="PTC Creo.html">PTC Creo</a>
+            <a href="Meshmixer.html">Meshmixer</a>
+            <a href="BLENDER.html">BLENDER</a>
+            <a href="Maya.html">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+
+        </div>
+        
+        <div class="row">
+          <div class="side"><ul  style="list-style:none;">
+            <li style="border:0 none; background: #666; color:white; height: 50px; padding-top: 18px;text-align:center; font-family: Serif; font-size: 20px;"><strong>On this page:</strong></li>
+            <li style="border:0 none; background: white;height: 50px;padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-description">Description</a></li>
+            <li style="border:0 none; background: white;height: 50px;padding-top: 18px;text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-applications">Applications in health care</a></li>         
+            <li style="border:0 none; background: white;height: 50px;padding-top: 18px;text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-features">Features</a></li>  
+       </ul>
+       
+       <div class="overview" style="list-style:none;">
+        <table class="overview_solidworks" style="width:345px; font-family: Serif; font-size: 20px;">
+            <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                <tr>
+                    <th colspan="2">Overview</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><div class="general_overview_solidworks" style="background:white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Developer</a></div></th>
+                    <td><div class="general_overview_solidworks" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Dassault Systèmes</a></div></td>
+                </tr>
+                <tr>
+                    <th><div class="general_overview_solidworks" style="background: white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Platforms</a></div></th>
+                    <td><div class="general_overview_solidworks" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Windows</a></div></td>
+                </tr>
+                <tr>
+                    <th><div class="general_overview_solidworks" style="background: white; height: 450px; padding-top: 175px; text-align:center;width:100px;"><a>Pros</a></div></th>
+                    <td>
+                        <div class="general_overview_solidworks" style="background:white; height: 450px; padding-top:1px; padding-right:15px; text-align:center;">
+                            <ul style="list-style:none;">
+                                <li>Stress analysis and data management tools</li>
+                                <li>Cloud-connected CAD</li>
+                                <li>Includes cost estimation tools</li>
+                                <li>Helps understand product performance early</li>
+                                <li>Can share real-time product development information with the marketing team</li>
+                                <li>Cross-team collaboration</li>
+                                <li>Include component library</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th><div class="general_overview_solidworks"style="background:white; height: 90px; padding-top: 30px; text-align:center;width:100px;"><a>Price</a></div></th>
+                    <td><div class="general_overview_solidworks" style="background:white; height: 90px; padding-top: 8px; text-align:center;"><a>The subscription cost of the software is available on a request basis</a></div></td>
+                </tr>  
+            </tbody>
+        </table>  
+      </div>    
+      <img id="process" src="dental-solidworks.jpg" alt="process" style="height:250px; padding-top:5px;">
+      <ul  style="list-style:none;">
+        <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">3D CAD model of dental implant system.</li>
+      </ul>
+      </div>
+    
+          <div class="main">
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"></a></strong>Description</h2>
+            <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">SolidWorks software is a 3D CAD program that lets designers quickly sketch out ideas, experiment with features and dimensions, and produce models and detailed drawings. 
+                Nowadays, it is the most widely used software by engineers and designers throughout the design development phase. 
+                SolidWorks models are transforming ideas into reality, by having the ability to simulate the concept design through different cases. Testing during each phase, starting from designing concepts and ending with product development, is significant. 
+                Medical products need the correct understanding regarding how products are going to work and it is important to examine carefully whether the final products will behave as desired. </p>
+            <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">SolidWorks uses the principle of parametric design and generates three kinds of interconnected files: the part, the assembly, and the drawing. Parameters refer to constraints whose values determine the shape or geometry of the model or assembly. Parameters can be either numeric parameters, such as line lengths and circle diameters, or geometric parameters, such as tangent, parallel, concentric, horizontal, vertical, etc. Numeric parameters can be associated with each other with the use of relations, which allows them to capture design intent. 
+                SolidWorks enables the user to import and translate data, also securely store them and retain their versatility and accessibility.</p>
+            <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">SolidWorks provides easy-to-use surface modeling capabilities allowing user to create high-quality ergonomic surfaces that give to the products a cutting-edge design while ensuring it is robust, fit-for-purpose, and can be easily manufactured. 
+                SolidWorks uses a 3D design approach. 
+                A 3D model can be created from the initial sketch to the final result. 
+                Using this model, the user can create 2D drawings or mate components consisting of parts or subassemblies to create 3D assemblies. 
+                User can also create 2D drawings of 3D assemblies. 3D models can help to automate production procedures and are useful for organic shapes as they define 3D features and not 2D geometries. 
+                SolidWorks generates Geometric Dimensioning and Tolerance based drawings per ANSI/ ISO standards for correctness and completeness. 
+                SolidWorks simulation helps determine factors of safety, Mean Time Between Failures (MTBF), Vibration Level Monitoring, Efficiency Estimation, Development time and Reduction in Product Cost. 
+                SolidWorks ensures the medical equipment to meet stringent safety and reliability standards. </p>
+            
+           
+    
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-applications"></a></strong>Applications in Healthcare</h2>
+            <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">SolidWorks software is a digital tool of choice for many manufacturers of diagnostic and clinical equipment, surgical tools, implants, drug delivery systems and pharmaceutical packaging systems. 
+                Concerning the Product Engineers who use SolidWorks software to design Medical Device, the testing prosses during each stage of product development is crucial for understanding how products will work and whether they will behave as desired. 
+                Product engineers have to predict the life of implantable devices accurately so that patients can have them removed or replaced in a timely, non-life-threatening manner. 
+                Implanted devices, such as cardiovascular stents, have to be error free because failure can cause fatalities. 
+                Orthopedic implants, such as hip and knee replacements, must function flawlessly to avoid pain and the danger of fracture to patients.</p>
+            
+            
+            
+            <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-features"></a></strong>Features</h2>
+            <ul style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                <li>Create parts, assemblies, and 2D drawings with intuitive tools</li>
+                <li>Use specialized tools for sheet metal, routing, surfacing and more</li>
+                <li>Design with cost estimation, manufacturability and functional assembly</li>
+                <li>Ensure successful design with simulation</li>
+                <li>Build toolpaths with integrated paths</li>
+                <li>Conveniently reuse existing CAD and common parts</li>
+                <li>Create photorealistic renderings for early feedback and marketing</li>
+                <li>Reverse engineering for scan to solid geometry</li>
+            </ul>
+    
+           
+            
+            <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information visit website: <a href="https://www.solidworks.com/" target="_blank"> SolidWorks </a> </p>
+    
+            </div>
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+
+        </body>
+</html>

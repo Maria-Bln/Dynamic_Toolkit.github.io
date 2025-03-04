@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|Maya</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family:serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family: serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family: serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="SolidWorks.html">SolidWorks</a>
+            <a href="Fusion360.html">Fusion360</a>
+            <a href="MeshLab.html">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="Inventor Professional.html">Inventor Profesional</a>
+            <a href="PTC Creo.html">PTC Creo</a>
+            <a href="Meshmixer.html">Meshmixer</a>
+            <a href="BLENDER.html">BLENDER</a>
+            <a href="#" class="active">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+        </div>
+        
+        <div class="row">
+          <div class="side">
+                <ul  style="list-style:none;">
+                  <li style="border:0 none; background: #666; color:white; height:50px; padding-top:18px; text-align:center; font-family:serif; font-size: 20px;"><strong>On this page:</strong></li>
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family:serif; font-size: 20px;"><a href="#dt-description">Description</a></li>
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family:serif;font-size: 20px;"><a href="#dt-summary">Summary</a></li>       
+                </ul>
+
+                <div class="overview" style="list-style:none;">
+                    <table class="overview_maya" style="width:345px;font-family: Serif; font-size: 20px;">
+                        <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                            <tr>
+                                <th colspan="2">Overview</th>
+        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><div class="general_overview_maya" style="background:white; height: 50px; padding-top: 15px; text-align:center;  width:100px;"><a>Developer</a></div></th>
+                                <td><div class="general_overview_maya" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Autodesk</a></div></td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_meshlab" style="background: white; height: 100px; padding-top: 40px; text-align:center;  width:100px;"><a>Platforms</a></div></th>
+                                <td>
+                                    <div class="general_overview_nx" style="background:white; height: 100px; padding-top: 1px; text-align:center;">
+                                        <ul style="list-style:none;">
+                                            <li>Windows</li>
+                                            <li>Linux</li>
+                                            <li>MacOS</li>
+                                        </ul> 
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_meshlab" style="background: white; height: 470px; padding-top: 230px; text-align:center; width:100px;"><a>Pros</a></div></th>
+                                <td>
+                                    <div class="general_overview_meshlab" style="background:white; height: 470px; padding-top: 1px;padding-right:15px; text-align:center;">
+                                        <ul style="list-style:none;">
+                                            <li>Create physically accurate simulations in a single visual programming environment</li>
+                                            <li>Load and edit large datasets quickly and work directly with data using native tools</li>
+                                            <li>It works faster and gives optimum performance to the users</li>
+                                            <li>Completed work can be checked at a faster speed that saves time</li>
+                                            <li>It has loads of dynamic effects</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><div class="general_overview_solidworks"style="background:white; height: 180px; padding-top: 90px; text-align:center;"><a>Price</a></div></th>
+                                <td>
+                                    <div class="general_overview_fusion360" style="border:0 none;background:white; height: 180px; padding-right:15px; padding-top: 1px; text-align:center;">
+                                        <ul style="list-style:none;">
+                                            <li>Free trial</li>
+                                            <li>Monthly subscription</li>
+                                            <li>Annually subscription</li>
+                                            <li>Free acess for students and educators</li>
+                                         </ul>
+                                    </div>
+                                </td>
+                            </tr>  
+                        </tbody>
+                    </table>      
+                </div>
+                <img id="process" src="maya.jpg" alt="process" style="height:250px; padding-top:5px;">
+                <ul  style="list-style:none;">
+                  <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">3D CAD model of spinal column.</li>
+                </ul>
+          </div>
+            <div class="main">
+                    <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"></a></strong>Description</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Autodesk Maya (or commonly shortened Maya) is a 3D digital tools to modelling and make animation in a digital space. 
+                        Maya incorporates the natural laws of physics to control the behavior of virtual objects in computer animation. 
+                        It can be used for movies, games, and commercials. 
+                        With the help of the program the user defines heavy models, which help to give ultra 3D effects, realistic view.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Maya use surface modelling system. To define the surfaces Maya use 3 different methods:</p>
+                    <ul style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                        <li>Polygons</li>
+                        <li>NURBS (Non-Uniform Rational Basic Splines)</li>
+                        <li>SubD’s</li>
+                    </ul>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">The polygon models are made of vertices, edges, and faces. With these primitives the program defines polygon primitives like cylinder, sphere, or cube. 
+                        The pulling, pushing, adding relation between these forms define the final shape of the model. 
+                        The polygon modelling is the simplest modelling strategy, but the final forms have sharp edges, or we need to define large number of primitives to the realistic form. 
+                        The NURBS surface definition gives an opportunity to define soft edges and form with the help of few points. 
+                        The NURBS curve have been defined with mathematical expression. 
+                        The SubD’s have characteristics of both polygons and NURBS surfaces; they are made up of vertices, faces & edges like polygons, but use curves like NURBS.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">In the engineering life the motion definition and the physical properties definition is the importance of the Maya. 
+                        The program is universal, not requirement mechanical engineer studies to make an assembly or a movie. 
+                        Typically, the movie based modelling is current with Maya.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">When we want to make a model is maya we need to define the position and the size of primitives in the model space. 
+                        After that with the selection tool we can modify the feature properties. 
+                        Textures can be assigned to the solids and the motion path have been defined to make an animation.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">With the help of this software full detailed movie has been created. With the polygonal, NURBS or SubD’s surface modelling system detailed parts have been defined and the texture representation helps to make a similarity of the solid with the real life solid. 
+                        The surface modelling system gives an opportunity to define very complex surface definitions.  
+                        For more editing or example 3D printing Maya supports the IGES, STEP, STL and some other file formats </p>
+                        
+                       
+                    
+                        <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-summary"></a></strong>Summary</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Adobe Maya software enables the user to:</p>
+                    <ul style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                        <li>Create models with surface modelling tools</li>
+                        <li>Create Polynomial, NURBS, or SubD’s surfaces</li>
+                        <li>Define textures for the surfaces</li>
+                        <li>Make a render for the scene</li>
+                        <li>Define a motion and make a movie</li>
+                    </ul>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information visit website: <a href="https://www.autodesk.com/products/maya/overview?term=1-YEAR&tab=subscription" target="_blank"> Maya </a> </p>
+                    
+            </div>
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+
+            
+    </body>
+</html>
+            
+        
+            
+                    

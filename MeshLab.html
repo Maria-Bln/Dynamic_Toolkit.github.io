@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egodesign|MeshLab</title>
+        <link rel="icon" type="logo ergodesign" href="ergo.jpg">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+              /* Style the body */
+              body {
+                font-family: serif;
+                margin: 0;
+              }
+              .footer {
+                height: 150px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:#424140;
+                color: white;
+                text-align: center;
+                background-repeat: no-repeat;
+             }
+              /* Header/logo Title */
+              .header {
+                padding: 80px;
+                text-align: center;
+                color: white;
+              }
+              
+              /* Increase the font size of the heading */
+              .header h1 {
+                font-size: 45px;
+              }
+    
+              .wp-dt{
+                background-position: center;
+                font-family:serif;
+                width: 200px;
+              }
+              #home_image{
+                height: 400px; 
+                width: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:rgb(242, 244, 245);
+              }
+              .text_inner{
+                text-align: center;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+              }
+              /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+              .navbar {
+                overflow: hidden;
+                background-color:white;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0;
+              }
+              
+              /* Style the navigation bar links */
+              .navbar a {
+                float: left;
+                display: block;
+                color:black;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+              }
+              
+              
+              /* Right-aligned link */
+              .navbar a.right {
+                float: right;
+              }
+              
+              /* Change color on hover */
+              .navbar a:hover {
+                background-color: whitesmoke;
+                color: black;
+              }
+              
+              /* Active/current link */
+              .navbar a.active {
+                background-color: #666;
+                color: white;
+              }
+              /* Column container */
+              .row {  
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+              }
+              /* Create two unequal columns that sits next to each other */
+              /* Sidebar/left column */
+              .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+              }
+              .overview{
+                font-family:serif;
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                width:380px;
+                padding-left:40px;
+              }
+              .col {
+                width: 100%;
+              }
+              /* Main column */
+              .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+              }
+              #process {
+                background-position: center;
+                background-repeat: no-repeat;
+                width:380px;
+                padding-left:40px;
+              }
+             
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              }
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              }
+              </style>
+        </head>    
+    <body>
+           
+        <div id="header">
+            <div class="wp-dt">
+                <img  id="home_image" src="image_3.png" alt="home_image">
+                    <div class="text_inner">
+                      <h1 style="font-size:30px; color:#666"> Improving digital skills for Ergonomics and Bioengineering for inclusive Health Care</h1>
+                      <h2 style="color:#666; font-family:Serif; font-size: 28px;"> Welcome to Ergodesign Dynamic Toolkit <br> A collection of 3D CAD softwares used for dental and orthopeadic applications </h2>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="navbar" style="font-family:Serif; font-size:20px;">
+            <a href="index.html">Home</a>
+            <a href="second2.html">Dynamic Toolkit</a>
+            <a href="SOlidWorks.html">SolidWorks</a>
+            <a href="Fusion360.html">Fusion360</a>
+            <a href="#" class="active">MeshLab</a>
+            <a href="Siemens NX.html">Siemens NX</a>
+            <a href="Inventor Professional.html">Inventor Profesional</a>
+            <a href="PTC Creo.html">PTC Creo</a>
+            <a href="Meshmixer.html">Meshmixer</a>
+            <a href="BLENDER.html">BLENDER</a>
+            <a href="Maya.html">Maya</a>
+            <a href="Solid Edge.html">Solid Edge</a>
+        </div>
+        
+        <div class="row">
+          <div class="side">
+                <ul  style="list-style:none;">
+                  <li style="border:0 none; background: #666; color:white; height:50px; padding-top:18px; text-align:center; font-family: Serif; font-size: 20px;"><strong>On this page:</strong></li>
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-description">Description</a></li>
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-range of use">Range of usage</a></li>  
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-digital tool principles">Digital tool principles</a></li>  
+                  <li style="border:0 none; background: white; height: 50px; padding-top: 18px; text-align:center; font-family: Serif; font-size: 20px;"><a href="#dt-summary">Summary</a></li>    
+                </ul>
+
+                <div class="overview" style="list-style:none;">
+                    <table class="overview_meshlab" style="width:345px; font-family: Serif; font-size: 20px;">
+                        <thead style="background: #666; color:white; height: 50px; padding-top: 25px; text-align:center;">
+                            <tr>
+                                <th colspan="2">Overview</th>
+            
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <th><div class="general_overview_meshlab" style="background:white; height: 50px; padding-top: 15px; text-align:center; width:100px;"><a>Developer</a></div></th>
+                                    <td><div class="general_overview_meshlab" style="background:white; height: 50px; padding-top: 15px; text-align:center;"><a>Visual Computing Lab</a></div></td>
+                                </tr>
+                                <tr>
+                                    <th><div class="general_overview_meshlab" style="background:white; height: 100px; padding-top: 40px; text-align:center; width:100px;"><a>Platforms</a></div></th>
+                                    <td>
+                                        <div class="general_overview_nx" style="background:white; height: 100px; padding-top: 1px; text-align:center;">
+                                            <ul style="list-style:none;">
+                                                <li>Windows</li>
+                                                <li>Linux</li>
+                                                <li>MacOS</li>
+                                            </ul> 
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><div class="general_overview_meshlab" style="background: white; height: 645px; padding-top: 320px; text-align:center;width:100px;"><a>Pros</a></div></th>
+                                    <td>
+                                        <div class="general_overview_meshlab" style="background:white; height: 645px; padding-top:1px; padding-right:20px; text-align:center;">
+                                            <ul style="list-style:none;">
+                                                <li>Very large quantity of available filters for mesh processing, some of them unique to MeshLab</li>
+                                                <li>Advanced algorithms for mesh measurement, analysis and comparison</li>
+                                                <li>Easy automation of tasks on various level (complete automation possible)</li>
+                                                <li>Open source – free to use, code freely available</li>
+                                                <li>Optimized engine – rapid work, possibility of use on computers with lower computing power</li>
+                                                <li>High range of possible file formats available for import/export</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><div class="general_overview_solidworks" style="background: white; height: 50px; padding-top: 15px; text-align:center;width:100px;"><a>Price</a></div></th>
+                                    <td><div class="general_overview_solidworks" style="background: white; height: 50px; padding-top: 15px; text-align:center;"><a>Free Software</a></div></td>
+                                </tr>  
+                            </tbody>
+                        </table>      
+                    </div>
+                    <img id="process" src="meshlab.jpg" alt="process" style="height:250px; padding-top:5px;">
+                    <ul  style="list-style:none;">
+                      <li style="border:0 none; background:#f1f1f1; height:50px; padding-top:1px; text-align:center; font-family:Serif; font-size:20px;">3D CAD model of forearm.</li>
+                    </ul>
+                </div>
+                
+                <div class="main">
+                    <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"><a name="dt-description"></a><strong>Description</strong></h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">MeshLab is an open-source software for processing and editing of 3D triangular meshes, as well as point clouds and raster objects. 
+                        The tool is dedicated to processing large unstructured triangle meshes and includes a set of tools. 
+                        It allows editing, cleaning, healing, inspecting, rendering, texturing and converting meshes. 
+                        It processes raw data produced by 3D digitization tools/devices and for preparing models for 3D printing. 
+                        The tool is in active development by the Visual Computing Lab of ISTI-CNR (Italy) since 2005. 
+                        The latest available version is 2022.02 (February 2022). </p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">As a mesh viewing application, MeshLab allows 3D objects (saved in various formats) to be loaded and interactively inspected in a simple way, by dragging and clicking the mesh itself. 
+                        User can work on a loaded mesh owing to interactive tools or a large set of parametric filters, which perform automatic tasks on selected parts or whole meshes. 
+                        A distinctive feature of MeshLab is a very large range of these filters, allowing to perform very advanced operations, often based on complex mathematic algorithms. 
+                        A unique feature of MeshLab is automatic recording of the filter usage - auto-creation of macros, which can be saved to a hypertext file and then re-used, both manually or through console-based tool (originally MeshLab Server, in late versions replaced by PyMeshLab).</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">MeshLab was chosen for the project ‘Automation of design and rapid manufacturing of personalized orthopaedic and prosthetic supplies on the basis of anthropometric measurement data’ (realized at Poznan University of Technology), because of its programmability and automation potential – as mentioned above, each operation on the mesh can be registered as part of a so-called control macro. 
+                        Macros, or parts of them, can be saved for later use and run remotely without the need for a graphical user interface. 
+                        MeshLab is the only mesh software that is both open source and automated, making the process more efficient. 
+                        Examples of its use for automated scan processing and then data extraction for rapid CAD design of 3D printed orthoses and prostheses can be found in publications.
+                        MeshLab is an important part of automated algorithms of the AutoMedPrint system created as a result of these studies (automedprint.put.poznan.pl).</p>
+                    
+                    <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"><a name = "dt-range of use"></a></strong>Range of usage</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">Main usage of MeshLab involves the following work:</p>
+                    <ol style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                        <li>Basic align of 3D scanned / medical imaging data in form of point clouds and triangle meshes. MeshLab provides a set of tools for moving the different meshes into a common reference system. The alignment can be performed on meshes and point clouds coming from several sources, including active (both short- and long-range) scanners and 3D-from-image tools</li>
+                        <li>Basic mesh processing: transformation, rotation, mirror, scaling; selecting and removing vertices, triangles and whole surfaces via manual or semi-automated algorithms; automated mesh error removal and cleaning</li>
+                        <li>Advanced cleaning: hole filling, removal of unwanted artifacts, partial or total repair of meshes. Mesh division, simplification, refinement or remeshing</li>
+                        <li>Mesh reconstruction. The process of transforming independent acquisitions, or point clouds, into a single-surface triangulated mesh can be fulfilled with different algorithmic approaches. MeshLab provides several solutions to reconstruct the shape of an object, ranging from volumetric (Marching Cube) to implicit surfaces </li>
+                        <li>3D printing oriented features: offsetting (creating inner shells), resampling/remeshing, automatic closing of holes to obtain “waterproof” meshes, flattening the bottom area and more</li>
+                        <li>Measurement and analysis: manual measurement on the mesh surface, automated geometric and topological computations (center of mass, inertia tensor, bounding box size etc.). Planar sections in form of points, polylines or planar surfaces. Comparing different meshes for geometrical and topological differences</li>
+                        <li>Conversion and interchange – a number of 3D and 2D formats supported, both for export and import</li>
+                        <li>Raster image use – possibility of use of raster layers with 2D imagery or other forms of 2D data</li>
+                    </ol>
+            
+                    <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"><a name = "dt-digital tool principles"></a></strong>Digital tool principles</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">MeshLab is operated using a Graphical User Interface, consisting of several windows and toolbars. 
+                        The main part of the window is 3D viewer, where meshes and other objects can be inspected in 3D space (rotation, zoom and panning operations are available, as well as switch between perspective/orthographic camera, plus a number of possible visualization options – both global and per layer). 
+                        All the meshes are organized in named layers, usually representing separate files. 
+                        A project with multiple layers can be saved, referring to multiple files in various formats. 
+                        Layers can be duplicated, hidden, frozen, renamed and reordered freely.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">File, view, align, selection and basic measurement operations are available from the toolbar. 
+                        All the filters allowing the advanced features are available from the Filters menu. 
+                        Each of more than a hundred filters has its own interface and unique capabilities (filters are usually contained within external DLL files). 
+                        The Filters menu also contains simple script editor, allowing preview and basic edition of macros generated by use of filters. 
+                        Each use of a filter creates additional entry to the script, all the entries can be edited – i.e. modified, removed, reordered, duplicated and so on.</p>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">MeshLab is generally known for not being a super user-friendly. 
+                        Its interface is bulky and somehow difficult to get acquainted with. 
+                        The filters are very advanced, but their descriptions are usually vague and features aren’t always intuitive. 
+                        That is why MeshLab is not recommended as a tool for beginners, unless detailed use instructions are given. 
+                        However, MeshLab creators, as well as the user community, have prepared a number of video tutorials, instructions and scientific papers on its use, so it is a good start for learning the software.</p>
+                    
+    
+                    <h2 style="font-family:Serif; font-size:25px;"><a name = "dt-description"><a name = "dt-summary"></a></strong>Summary</h2>
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">MeshLab can be successfully used for the following purposes:</p>
+                    <ul style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">
+                        <li>Processing, aligning and transforming raw data from 3D scanning or medical imaging</li>
+                        <li>Cleaning and repairing broken or incomplete meshes</li>
+                        <li>Processing 3D meshes for 3D printing and visualization</li>
+                        <li>Combining raster data with 3D mesh data</li>
+                        <li>Analysis, comparing and measurement of specific features of 3D mesh data</li>
+                        <li>Creating fully or partially automated batch files for realization of the above mentioned tasks</li>
+                    </ul>
+            
+                   
+            
+                    <p style="font-family:Serif; font-size:20px; text-align:justify; margin-right:15px;">For more information vist website:  <a href="https://www.meshlab.net/" target="_blank"> MeshLab </a> </p>
+            
+                </div>
+        </div>
+        <div class="footer">
+          <table class="footer_table" style="font-family: Serif; font-size: 15px; width:100%; text-align:center;">
+            <tr>
+              <th style="width:500px; padding-left: 200px; width:80%;">Co-funded by the European Union. 
+                Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Fundacja Rozwoju Systemu Edukacji. 
+                Neither the European Union nor the granting authority can be held responsible for them.</th>
+                <th><img id="Logo-Co" src="Logo-Co-funded.png" alt="process" style="height:100px; padding-top: 15px;"></th>
+            </tr>
+          </table>
+        </div>
+
+    </body>
+</html>
